@@ -1,0 +1,92 @@
+@keyframes fadeIn {
+	from {
+		transform: translatey(10px);
+		opacity: 0;
+	}	
+	to {
+		transform: none;
+		opacity: 1;
+	}
+}
+
+#index-body {
+	height: 108vh;	
+}
+
+.index-screen {
+	padding: 0px var(--horizontal-padding);
+	margin-top: 135px;
+}
+
+.index-screen .account-component:first-child {
+	background-color: #A248A6;
+	margin-bottom: 14px;
+}
+
+.index-screen .account-component:nth-child(2) {
+	background-color: #A248A6;
+	margin-bottom: 14px;
+}
+
+.index-screen .account-component:nth-child(3) {
+	background-color: #54688F;
+	margin-bottom: 14px;
+}
+
+.index-screen .account-component:nth-child(3) .account-number span {
+	color: #7584A4;
+}
+
+.index-screen .account-component:nth-child(3) .account-component__personal-info__column:last-child i {
+	color: #394763; 
+}
+
+.index-screen .account-component:last-child .account-component__personal-info__column:first-child {
+	margin-bottom: 25px;
+}
+
+.index-screen .account-component:last-child .account-component__personal-info__column:last-child i {
+	color: #3A4863;
+}
+
+.index-nav .nav__list .nav__btn:first-child i {
+	color: black;
+}
+
+.adding-btn {
+	padding: 30px 30px;
+	background-color: #F8F8F8;
+	border-radius: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.adding-btn i {
+	color: #DDDDDD;
+}
+
+@keyframes presentSplashScreen {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+#splash-screen {
+	z-index: 3;
+	position: absolute;
+	top: 0;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 85px;
+	background-color: var(--yellow);
+	animation: presentSplashScreen .5s ease-in-out forwards;
+    animation-delay: 1.5s;
+}

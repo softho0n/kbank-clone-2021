@@ -1,0 +1,29 @@
+/* reset */
+@import "reset.css";
+
+/* global variables */
+@import "variables.css";
+
+/* components */
+@import "components/status-bar.css";
+@import "components/navigation-bar.css";
+@import "components/screen-header.css";
+@import "components/account-component.css";
+@import "components/card-component.css";
+@import "components/payload-component.css";
+@import "components/simple-row-component.css";
+@import "components/no-mobile.css";
+
+/* screens */
+@import "screens/index.css";
+@import "screens/service.css";
+@import "screens/alarm.css";
+@import "screens/settings.css";
+
+body {
+	height: 240vh;
+}
+
+a {
+	text-decoration: none;
+}

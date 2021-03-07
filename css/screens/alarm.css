@@ -1,0 +1,81 @@
+@keyframes fadeIn {
+	from {
+		transform: translatey(10px);
+		opacity: 0;
+	}	
+	to {
+		transform: none;
+		opacity: 1;
+	}
+}
+
+#alarm-body {
+	height: 118vh;	
+}
+
+.alarm-nav .nav__list .nav__btn i {
+	color: #BBBBBB;
+}
+
+.alarm-nav .nav__list .nav__btn:nth-child(3) i {
+	color: black;
+}
+
+.alarm-nav .nav__list .nav__btn:nth-child(3) .nav__dot {
+	visibility: hidden;
+}
+
+.notifications-screen {
+	padding: 0px var(--horizontal-padding);
+	margin-top: 125px;
+}
+
+.notifications-screen__header {
+	padding-bottom: 15px;
+}
+
+.notifications-screen__header span {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.payloads {
+	animation: fadeIn 1s ease-in-out;
+}
+
+.payload-component:first-child,
+.payload-component:nth-child(2),
+.payload-component:nth-child(3) {
+	background-color: #FFFFF2;
+}
+
+
+@keyframes showFromRight {
+    from {
+        opacity: 0;
+        transform: translatex(-100%);
+    }
+    to {
+        opacity: 1;
+        transform: translatex(0);
+    }
+}
+
+@keyframes showFromLeft {
+    from {
+        opacity: 0;
+        transform: translatex(100%);
+    }
+    to {
+        opacity: 1;
+        transform: translatex(0);
+    }
+}
+
+.payload-component:nth-child(odd) {
+	animation: showFromRight 1.5s ease-in-out;
+}
+
+.payload-component:nth-child(even) {
+	animation: showFromLeft 1.5s ease-in-out;
+}

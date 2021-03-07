@@ -1,0 +1,35 @@
+.screen-header {
+	position: fixed;
+	width: 100%;
+	top: 40px;
+	box-sizing: border-box;
+	background-color: white;
+	padding-top: 25px;
+	padding-bottom: 10px;
+	padding-left: var(--horizontal-padding);
+	padding-right: var(--horizontal-padding);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	z-index: 1;
+}
+
+.screen-header__avatar {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+}
+
+.screen-header__username {
+	font-size: 26px;
+	font-weight: bold;
+	margin-right: 5px;
+}
+
+.screen-header__account {
+	font-size: 14px;
+	font-weight: bold;
+	background-color: #F1F1F1;
+	padding: 5px 10px;
+	border-radius: 15px;
+}

@@ -1,0 +1,64 @@
+.account-component {
+	padding: 30px 30px;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	border-radius: 15px;
+}
+
+.account-component__personal-info {
+	display: flex;
+	justify-content: space-between;
+}
+
+.account-component__personal-info__column:first-child .account-number {
+	margin-top: 8px;	
+}
+
+.account-component__personal-info__column:first-child .account-number span {
+	font-size: 12px;
+	color: #BA74BC;
+}
+
+.account-component__personal-info__column:last-child i {
+	font-size: 26px;
+	color: #8F3F92;
+}
+
+.account-component__amount {
+	padding: 45px 0px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.account-component__amount span {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.account-component__btns .btns_list {
+	display: flex;
+	justify-content: space-around;
+}
+
+.account-component__btns .btns_list .btn_element a {
+	font-weight: lighter;
+}
+
+.safebox {
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.account-component__alt-elements {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 16px;
+	padding-bottom: 10px;
+}
+
+.account-component__alt-elements span {
+	font-size: 24px;
+	font-weight: bold;
+}

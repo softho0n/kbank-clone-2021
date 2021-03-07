@@ -1,0 +1,16 @@
+.simple-row-component {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-bottom: 38px;
+}
+
+.simple-row-component__column span {
+	font-weight: bold;
+	font-size: 16px;
+	color: #4B4B4B;
+}
+
+.simple-row-component__column i {
+	color: #E0E0E0;
+}

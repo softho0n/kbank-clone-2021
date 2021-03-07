@@ -1,0 +1,16 @@
+.status-bar {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	box-sizing: border-box;
+	background-color: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 15px;
+	z-index: 2;
+}
+
+.status-bar span {
+	font-weight: bold;
+}

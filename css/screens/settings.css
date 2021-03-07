@@ -1,0 +1,122 @@
+@keyframes fadeIn {
+	from {
+		transform: translatey(10px);
+		opacity: 0;
+	}	
+	to {
+		transform: none;
+		opacity: 1;
+	}
+}
+
+#settings-body {
+	height: 123vh;
+}
+
+.settings-nav .nav__list .nav__btn i {
+	color: #BBBBBB;
+}
+
+.settings-nav .nav__list .nav__btn:nth-child(4) i {
+	color: black;
+}
+
+.settings-nav .nav__list .nav__btn:nth-child(3) .nav__dot {
+	visibility: hidden;
+}
+
+.settings-nav .nav__list .nav__btn:nth-child(4) .nav__dot {
+	visibility: hidden;
+}
+
+.settings__screen-header .screen-header__column:first-child {
+	display: flex;
+	align-items: center;
+}
+
+.settings__screen-header .screen-header__column:first-child i {
+	margin-left: 5px;
+	color: gray;
+}
+
+.settings__screen-header .screen-header__column:last-child span {
+	display: block;
+	color: #4B4B4B;
+	font-weight: bold;
+	padding: 15px 12px;
+	background-color: #F7F7F7;
+	border-radius: 20px;
+}
+
+.settings-screen {
+	padding: 0px var(--horizontal-padding);
+	margin-top: 130px;
+	animation: fadeIn 1s ease-in-out;
+}
+
+.event-banner {
+	background-color: #FFF285;
+	padding: 21px 25px;
+	border-radius: 13px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.event-banner__column:first-child span:first-child {
+	font-weight: bold;
+	margin-right: 5px;
+}
+
+.event-banner__column:first-child span:last-child {
+	font-size: 14px;
+	font-weight: 100;
+}
+
+.event-banner__column:last-child {
+	display: flex;
+	justify-content: space-between;
+}
+
+.event-banner__column i {
+	color: #706C46;
+}
+
+.image-row {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 45px 0px;
+	border-bottom: .3px solid rgba(0, 0, 0, 0.3);
+}
+
+.image-row__column {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.image-row__column i {
+	font-size: 24px;
+	margin-bottom: 9px;
+	color: #363636;
+}
+
+.image-row__desc {
+	font-size: 14px;
+	color: #A2A2A2;
+}
+
+.simple-rows {
+	padding-top: 38px;
+	border-bottom: .3px solid rgba(0, 0, 0, 0.3);
+}
+
+.transfer-rows {
+	border-bottom: none;
+}
+
+.transfer-rows .simple-row-component:first-child span {
+	font-size: 13px;
+	color: #A3A3A3;
+}
