@@ -5,5 +5,5 @@
 
 ## Result
 <p align="center">
-  <img width="30%" src="result.gif" alt="animated" />
+  <img width="55%" src="result.gif" alt="animated" />
 </p>
